@@ -115,7 +115,7 @@ public class TestHeroes {
         lista.add(hero3);
         lista.add(hero4);
         assertEquals(lista,gh.buscarHeroesPorSuperpoder("Cortar"));
-        assertTrue(lista.size() == gh.buscarHeroesPorSuperpoder("Cortar").size());
+
     }
 }
 
